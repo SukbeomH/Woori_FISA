@@ -5,11 +5,12 @@ import datetime
 from io import BytesIO
 import plotly.graph_objects as go
 
+# 최초 변수
 search = False
 today = datetime.date.today()
 start_year = datetime.date(today.year - 5, today.month, today.day)
-df = {}
 
+# 사이드바 제작
 with st.sidebar:
     st.header("회사 이름과 기간을 입력하세요")
     stock_name = st.text_input(label="회사이름", value="삼성전자")
@@ -33,13 +34,13 @@ def get_stock_info():
     df = df[["회사명", "종목코드"]]
     return df
 
-
 def get_ticker_symbol(company_name):
     df = get_stock_info()
     code = df[df["회사명"] == company_name]["종목코드"].values
     ticker_symbol = code[0]
     return ticker_symbol
 
+# 검색 했을 때만 실행되도록
 if search:
     # 코드 조각 추가
     ticker_symbol = get_ticker_symbol(stock_name)
@@ -60,23 +61,31 @@ if search:
         ]
     )
     
+    # 검색 시 나타나는 데이터
     st.dataframe(df.tail(7))
     st.plotly_chart(fig, use_container_width=True)
     
+    # 바이너리 형태로, 데이터를 파일로 변환
     excel_data = BytesIO()      
     df.to_excel(excel_data, index=False)
     csv_file = df.to_csv(index=False).encode("utf-8")
     
+    # 데이터 다운로드를 위한 버튼 (수평으로 배치)
     col1, col2 = st.columns(2)
-    with col1:
-        st.download_button(
-            "엑셀 파일 다운로드",
-            data=excel_data,
-            file_name="stock_data.xlsx",
-            mime="text/xlsx",
-            key="download-xlsx",
+    col1.download_button(
+        label="엑셀 파일 다운로드",
+        data=excel_data,
+        file_name="stock_data.xlsx",
+        mime="text/xlsx",
+        key="download-xlsx",
         )
-    with col2:
-        st.download_button("CSV 파일 다운로드", csv_file, "stock_data.csv", "text/csv", key="download-csv")
+    col2.download_button(
+        label="CSV 파일 다운로드",
+        data=csv_file,
+        file_name="stock_data.csv",
+        mime="text/csv",
+        key="download-csv",
+    )
 else:
+    # 검색하지 않은 상황에서만 나오는 문구 설정
     st.header("무슨 주식을 사야 부자가 되려나...")
