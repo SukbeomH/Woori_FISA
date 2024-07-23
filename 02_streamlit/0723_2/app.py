@@ -6,7 +6,7 @@ img_list = ['https://i.imgur.com/t2ewhfH.png',
             'https://i.imgur.com/MDKQoDc.jpg']
 
 text = st.text_input("Type your text")
-
+text = "몬"
 # if text in ani_list:
 #     st.image(img_list[ani_list.index(text)])
 
