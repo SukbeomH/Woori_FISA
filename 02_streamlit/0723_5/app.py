@@ -49,6 +49,8 @@ if search:
     df = fdr.DataReader(f"KRX:{ticker_symbol}", start_p, end_p)
     df.index = df.index.date
     st.subheader(f"[{stock_name}] 주가 데이터")
+    
+    # 캔들차트 형태로 제작
     fig = go.Figure(
         data=[
             go.Candlestick(
