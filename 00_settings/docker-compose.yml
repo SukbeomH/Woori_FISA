@@ -1,0 +1,12 @@
+version: "3" 
+services: 
+  mysql:
+    image: mysql 
+    container_name: docker-mysql # 컨테이너 이름 설정
+    ports:
+      - "3306:3306" # 접근 포트 (컨테이너 외부:컨테이너 내부)
+    environment:
+      MYSQL_ROOT_PASSWORD: "0000"  # MYSQL 패스워드 설정 옵션
+    command:
+      - --character-set-server=utf8mb4 # 문자셋 설정 (확장된 유니코드, 한글 사용 가능)
+      - --collation-server=utf8mb4_unicode_ci # 문자셋 설정 
