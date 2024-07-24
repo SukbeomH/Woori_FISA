@@ -4,7 +4,7 @@ services:
     image: mysql 
     container_name: docker-mysql # 컨테이너 이름 설정
     ports:
-      - "3306:3306" # 접근 포트 (컨테이너 외부:컨테이너 내부)
+      - "3307:3306" # 접근 포트 (컨테이너 외부:컨테이너 내부)
     environment:
       MYSQL_ROOT_PASSWORD: "0000"  # MYSQL 패스워드 설정 옵션
     command:
