@@ -321,3 +321,17 @@ WHERE e.deptno = d.deptno AND e.comm IS NOT NULL;
 WITH cal AS (SELECT AVG(sal) avg, deptno FROM emp GROUP BY deptno)
 SELECT d.dname, d.loc, cal.avg
 FROM dept d LEFT OUTER JOIN cal ON cal.deptno = d.deptno;
+
+SELECT d.dname, d.loc, cal.avg
+FROM dept d LEFT OUTER JOIN (SELECT AVG(sal) avg, deptno FROM emp GROUP BY deptno) cal ON cal.deptno = d.deptno;
+
+SELECT 
+    d.dname, d.loc, cal.avg
+FROM
+    dept d,
+    (SELECT 
+		AVG(sal) AS avg, 
+        deptno
+    FROM emp
+    GROUP BY deptno) AS cal 
+WHERE cal.deptno = d.deptno;
