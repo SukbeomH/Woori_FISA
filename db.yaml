@@ -1,0 +1,9 @@
+LOCAL_HOST: "localhost"
+LOCAL_PORT: 3306
+LOCAL_USER: "root"
+LOCAL_PASS: ""
+
+CLASS_HOST: "118.67.131.22"
+CLASS_PORT: 3306
+CLASS_USER: "fisaai"
+CLASS_PASS: "woorifisa3!W"
