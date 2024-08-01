@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib 
+plotly
+openpyxl
+html5lib
+PyMySQL
+sqlalchemy
+python-dotenv
+streamlit-option-menu
+pydeck
+geopy
+requests
