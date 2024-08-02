@@ -1,0 +1,10 @@
+FROM jupyter/base-notebook
+
+# name the container
+LABEL name="jupyter_docker"
+
+# Match the Port
+EXPOSE 8888
+
+# Run the Jupyter Notebook
+CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
