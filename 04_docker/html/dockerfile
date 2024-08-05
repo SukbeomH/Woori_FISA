@@ -1,0 +1,8 @@
+FROM nginx:lastest
+
+EXPOSE 80
+
+VOLUME [ "" ]
+
+CMD ["nginx", "-g", "daemon off;"]
+
