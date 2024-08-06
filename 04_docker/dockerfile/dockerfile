@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/base-notebook:notebook-7.2.1
+FROM quay.io/jupyter/base-notebook:latest
 EXPOSE 8888
 
 # change active user to root
