@@ -1,13 +1,13 @@
-version: "3"
+name: compose
 services:
   mysql1:
     image: mysql:8
     networks:
       - wordpressnet1
     volumes:
-      - mysqlvol11:/var/lib/mysql
+      - mysqlvol11:/var/lib/mysqld
     restart: always
-    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci 
     environment:
       MYSQL_ROOT_PASSWORD: myrootpass
       MYSQL_DATABASE: wordpressdb
@@ -23,7 +23,7 @@ services:
     volumes:
       - wordpressvol12:/var/www/html
     ports:
-      - 85:80
+      - 80:80
     restart: always
     environment:
       WORDPRESS_DB_HOST: mysql1
