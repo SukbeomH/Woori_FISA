@@ -1,0 +1,45 @@
+FROM quay.io/jupyter/base-notebook:notebook-7.2.1
+EXPOSE 8888
+
+# change active user to root
+USER root 
+
+# install fonts-nanum
+RUN  sed -i 's/archive.ubuntu.com/ftp.daumkakao.com/g' /etc/apt/sources.list && \
+    apt-get update && \
+    apt-get install -y fonts-nanum*
+# install g++, openjdk-7, curl
+RUN  apt-get install -y g++ openjdk-7* curl &&\
+    apt-get clean
+
+# # Setup mecab (Korean tokenizer)
+# RUN bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)
+
+# install fontconfig (for fc-cache)
+RUN apt-get install -y fontconfig
+# update font cache and remove cache
+RUN fc-cache -fv && \
+    rm -fr ~/.cache/matplotlib
+
+# install matplotlib, konlpy
+RUN pip install --upgrade pip && \
+  pip install matplotlib konlpy
+
+# set font
+COPY font.py /home/jovyan/work/font.py
+RUN python /home/jovyan/work/font.py
+RUN chmod 777 /home/jovyan/work/font.py
+
+# Copy the sample.ipynb file
+COPY sample.ipynb /home/jovyan/work/sample.ipynb
+RUN chmod 777 /home/jovyan/work/sample.ipynb
+
+# Set the working directory
+WORKDIR /home/jovyan/work
+
+# change active user to jovyan
+USER jovyan
+
+# CMD ["jupyter", "notebook"]
+CMD ["jupyter", "lab"]
+
