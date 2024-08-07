@@ -1,0 +1,18 @@
+# docker run -d --name ubuntu -p 22:22 -it --privileged ubuntu:22.04
+# 위 명령어를 docker-compose.yml로 변환해보자!
+
+version: '3' # Version of Docker Compose, Deprecated
+
+services:
+  ubuntu:
+    image: ubuntu:22.04 # Image Name, --image
+    container_name: ubuntu # Container Name, --name
+    ports:
+      - "22:22" # Host:Container (SSH), -p
+    tty: true # Allocate a pseudo-TTY (Terminal), -t
+    stdin_open: true # Keep STDIN open even if not attached (Terminal), -i
+    privileged: true # Give permissions to the container (Root), --privileged
+
+    
+# docker compose up -d
+# apt update && apt install -y openssh-server && service ssh start 

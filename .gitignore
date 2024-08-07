@@ -4,3 +4,5 @@
 db.yaml
 *.ipynb
 *.except
+04_docker/elk
+04_docker/elk-kafka
