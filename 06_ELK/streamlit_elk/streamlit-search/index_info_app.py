@@ -12,11 +12,10 @@ st.markdown(
     """, unsafe_allow_html=True )
 
 st.sidebar.header("조회하고 싶은 인덱스명을 입력하세요")
-index_name = st.sidebar.text_input('인덱스명', value="stock_info").lower()
+index_name = st.sidebar.text_input('인덱스명', value="card_info").lower()
+field_name = st.sidebar.text_input('필드명', value="card_name")
+match_name = st.sidebar.text_input('조회하려는 내용', value="우리카드")
 
-field_name = st.sidebar.text_input('필드명', value="회사명")
-
-match_name = st.sidebar.text_input('조회하려는 내용', value="삼성전자")
 clicked1 = st.sidebar.button("해당 정보 확인")
 
 date_range = st.sidebar.date_input("도큐먼트 생성일",
