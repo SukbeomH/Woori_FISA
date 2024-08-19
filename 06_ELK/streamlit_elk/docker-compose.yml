@@ -1,0 +1,109 @@
+version: "3.4"
+
+services:
+  es1:
+    image: elasticsearch:${STACK_VERSION}
+    container_name: es1
+    hostname: es1
+    restart: unless-stopped
+    healthcheck:
+      test: "exit 0"
+    environment:
+      - "node.store.allow_mmap=false"
+      - "node.name=es1"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=es2,es3"
+      - "cluster.initial_master_nodes=es1,es2,es3"
+      - "ES_JAVA_OPTS=-Xms2048m -Xmx2048m -Des.index.number_of_replicas=0"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9200:9200
+    # volumes:
+    #  - ./es/es1/data:/usr/share/elasticsearch/data
+    #  - ./es/es1/log:/usr/share/elasticsearch/log
+
+  es2:
+    image: elasticsearch:${STACK_VERSION}
+    container_name: es2
+    hostname: es2
+    restart: unless-stopped
+    healthcheck:
+      test: "exit 0"
+    environment:
+      - "node.store.allow_mmap=false"
+      - "node.name=es2"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=es3,es1"
+      - "cluster.initial_master_nodes=es1,es2,es3"
+      - "ES_JAVA_OPTS=-Xms2048m -Xmx2048m -Des.index.number_of_replicas=0"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9201:9200
+    # volumes:
+    #  - ./es/es2/data:/usr/share/elasticsearch/data
+    #  - ./es/es2/log:/usr/share/elasticsearch/log
+
+  es3:
+    image: elasticsearch:${STACK_VERSION}
+    container_name: es3
+    hostname: es3
+    restart: unless-stopped
+    healthcheck:
+      test: "exit 0"
+    environment:
+      - "node.store.allow_mmap=false"
+      - "node.name=es3"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=es2,es1"
+      - "cluster.initial_master_nodes=es1,es2,es3"
+      - "ES_JAVA_OPTS=-Xms2048m -Xmx2048m -Des.index.number_of_replicas=0"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9202:9200
+    # volumes:
+    #  - ./es/es3/data:/usr/share/elasticsearch/data
+    #  - ./es/es3/log:/usr/share/elasticsearch/log
+
+  kibana:
+    image: kibana:${STACK_VERSION}
+    healthcheck:
+      test: "exit 0"
+    environment:
+      - "ELASTICSEARCH_HOSTS=http://es1:9200"
+      - "SERVER_NAME=127.0.0.1"
+    ports:
+      - 5601:5601
+    depends_on:
+      - es1
+      - es2
+      - es3
