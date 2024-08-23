@@ -28,7 +28,9 @@
                     header.innerText = data.title;
                     contents.innerText = data.body;
                 })
-        })
+        }).catch(error => {
+            console.error('에러 발생', error);
+        });
     </script>
 </body>
 
