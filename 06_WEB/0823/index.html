@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="imageCount" name="input" onchange="displayImage2(this.value)">
+    <div id="imageContainer"></div>
+    <script>
+        let imgList = ['data/jjanggu.png',
+            'data/monster.png',
+            'data/rickandmorty.jpg']
+
+        // 파이썬의 f-string 처럼 JS에서는 ` ${변수명} ` 사용할 수 있습니다.
+        // f"안녕 {num}개를 팝니다"
+        document.write(` 입력받을 이미지 개수 : ${input}개`)
+
+        document.getElementById('imageContainer').addEventListener('click', displayImage2, { once: true })
+
+        function displayImage(input) {
+            let imageContainer = document.getElementById('imageContainer')
+            for (let i = 0; i < input; i++) {
+                let img = document.createElement('img')
+                img.src = imgList[i]
+                imageContainer.appendChild(img)
+            }
+        }
+        function displayImage2() {
+
+            let input = document.getElementById('imageCount').value;
+            document.write(` 입력받을 이미지 개수 : ${input}개`)
+
+            let i = 0;
+
+            while (i < Number(input)) {
+                if (i % imgList.length == 0) {
+                    document.write(`<img src=${imgList[0]} width=300 height=300>`)
+                } else if (i % imgList.length == 1) {
+                    document.write(`<img src=${imgList[1]} width=300 height=300>`)
+                } else if (i % imgList.length == 2) {
+                    document.write(`<img src=${imgList[2]}  width=300 height=300>`)
+                }
+                i++;
+            }
+        }
+    </script>
+</body>
+
+</html>
