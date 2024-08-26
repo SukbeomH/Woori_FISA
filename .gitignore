@@ -8,3 +8,4 @@ db.yaml
 04_docker/elk-kafka
 .DS_Store
 06_WEB/bootstrap/dependency
+06_WEB/django/django
