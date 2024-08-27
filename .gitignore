@@ -7,5 +7,4 @@ db.yaml
 04_docker/elk
 04_docker/elk-kafka
 .DS_Store
-06_WEB/bootstrap/dependency
-06_WEB/django/django
+06_WEB/0823/bootstrap/dependency
