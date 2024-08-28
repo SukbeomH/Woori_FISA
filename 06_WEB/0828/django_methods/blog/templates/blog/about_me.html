@@ -1,0 +1,50 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block page_area %}
+<!-- Main-->
+<div id="main">
+
+    <div class="container px-5" id="one">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xxl-6">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder mb-3">Build things that build things!</h1>
+                    <p class="lead fw-normal text-muted mb-4">김연지입니다</p>
+                    <a class="btn btn-dark btn-lg" href="#scroll-target">WHO I AM</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- About section one-->
+            <section class="py-5 bg-light about_me" id="scroll-target">
+                <div class="container px-5 my-5"  id="two">
+                    <div class="row gx-5 align-items-center">
+                        <!-- <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="data/spongebob.jpg" alt="..." /></div> -->
+                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="{% static 'data/spongebob.jpg' %}" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Programmer</h2>
+                            <p class="lead fw-normal text-muted mb-0">1000번 안 되다가 1번 될 때 느끼는 희열감과<br>
+                                내일은 되겠지, 라는 낙천성을 가진 개발자</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section two-->
+            <section class="py-5" id="three">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <!-- <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="data/profile.png" alt="..." /></div> -->
+                        <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="{% static 'data/profile.png' %}" alt="..." /></div>
+
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Technical Editor</h2>
+                            <p class="lead fw-normal text-muted mb-0">국어국문학을 전공한 개발자의 눈으로<br> 잘 이해되는 설명과 잘 돌아가는 코드를 가진<br> 책을 세상에 선보이는 지식노동자</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+</div>
+
+{% endblock %}
