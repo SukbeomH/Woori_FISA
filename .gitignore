@@ -9,3 +9,4 @@ db.yaml
 .DS_Store
 06_WEB/0823/bootstrap/dependency
 06_WEB/0827/my0827/node_modules
+*/.DS_Store
