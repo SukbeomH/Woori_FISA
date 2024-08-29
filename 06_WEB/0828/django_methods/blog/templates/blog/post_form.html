@@ -2,8 +2,10 @@
 {% load static %}
 {% block page_area %}
 
+<div class="row d-flex justify-contents-center">
     <form method="post">{% csrf_token %}
         {{ form.as_p }}
         <input type="submit" value="Save">
     </form>
+</div>
 {% endblock %}
