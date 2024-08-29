@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     # "account",
     "allauth",
     "allauth.account",
+    "crispy_forms",
+    "crispy_bootstrap5",
+    
 ]
 
 MIDDLEWARE = [
@@ -149,3 +152,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, '_media')
 
 # for Login Auth
 LOGIN_REDIRECT_URL = '/blog/post-list'
+
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
