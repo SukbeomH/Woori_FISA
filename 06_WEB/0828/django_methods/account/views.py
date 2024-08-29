@@ -20,6 +20,11 @@ def user_login(request): # 주소줄로 요청을 받아서 일할거야
 
                     response = HttpResponse('인증 성공') # 응답 객체 생성
                     # 입력받은 user가 일치하면 response를 전달 로그인 되셨습니다!
+                    response.set_cookie('user', user)
+                    response.set_cookie('user', user)
+                    request.session["testSession"] = 'value session'
+                    response.content = f"로그인 됨 {request.COOKIES.get('user')}\nsession: {request.session.get('testSession')}"
+                    
                     return response
                 else:
                     # is_active가 False라서
