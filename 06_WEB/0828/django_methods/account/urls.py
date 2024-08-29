@@ -9,5 +9,5 @@ urlpatterns = [
     # path('login/', views.user_login), # localhost:8000/account/login/ 경로, 경로를 호출하면 실행할 함수의 위치
     
     path('login/', auth_views.LoginView.as_view(), name='login'),
-    path('logout/', auth_views.LogoutView.as_view(), name='logout')
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]

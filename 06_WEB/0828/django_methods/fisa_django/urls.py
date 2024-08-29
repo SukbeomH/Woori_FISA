@@ -24,7 +24,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("blog/", include('blog.urls')),  # locahost:8000/blog/실제blog/urls.py에 적힌 경로
-    path("account/", include('account.urls')),
+    # path("account/", include('account.urls')),
+    path('account/', include('allauth.urls')),
+    path("", include('blog.urls'))
 ]
 # django_project/urls.py에 추가
 # python -m pip install Pillow
