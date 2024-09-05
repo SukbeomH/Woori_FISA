@@ -1,0 +1,13 @@
+2024/09/05 02:37:39 [emerg] 1#1: host not found in upstream "web1" in /etc/nginx/nginx.conf:14
+2024/09/05 02:38:59 [emerg] 1#1: invalid number of arguments in "server" directive in /etc/nginx/nginx.conf:10
+2024/09/05 02:44:14 [emerg] 1#1: invalid number of arguments in "server" directive in /etc/nginx/nginx.conf:10
+2024/09/05 02:44:59 [emerg] 1#1: unknown directive "web1" in /etc/nginx/nginx.conf:10
+2024/09/05 02:46:11 [emerg] 1#1: "upstream" directive is not allowed here in /etc/nginx/nginx.conf:50
+2024/09/05 02:46:58 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:80/", host: "localhost"
+2024/09/05 02:46:59 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.17.0.3:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2024/09/05 02:47:12 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /admin HTTP/1.1", upstream: "http://172.17.0.3:80/admin", host: "localhost"
+2024/09/05 02:47:12 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.17.0.3:80/favicon.ico", host: "localhost", referrer: "http://localhost/admin"
+2024/09/05 02:47:22 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /account HTTP/1.1", upstream: "http://172.17.0.3:80/account", host: "localhost"
+2024/09/05 02:47:22 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.17.0.3:80/favicon.ico", host: "localhost", referrer: "http://localhost/account"
+2024/09/05 02:48:02 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /admin/ HTTP/1.1", upstream: "http://172.17.0.3:80/admin/", host: "localhost"
+2024/09/05 02:48:02 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.17.0.3:80/favicon.ico", host: "localhost", referrer: "http://localhost/admin/"

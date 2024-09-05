@@ -1,0 +1,8 @@
+172.17.0.1 - - [05/Sep/2024:02:46:58 +0000] "GET / HTTP/1.1" 502 559 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:46:59 +0000] "GET /favicon.ico HTTP/1.1" 502 559 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:47:12 +0000] "GET /admin HTTP/1.1" 502 559 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:47:12 +0000] "GET /favicon.ico HTTP/1.1" 502 559 "http://localhost/admin" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:47:22 +0000] "GET /account HTTP/1.1" 502 559 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:47:22 +0000] "GET /favicon.ico HTTP/1.1" 502 559 "http://localhost/account" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:48:02 +0000] "GET /admin/ HTTP/1.1" 502 559 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [05/Sep/2024:02:48:02 +0000] "GET /favicon.ico HTTP/1.1" 502 559 "http://localhost/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"

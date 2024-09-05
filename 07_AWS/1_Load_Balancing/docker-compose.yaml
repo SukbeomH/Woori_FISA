@@ -1,0 +1,46 @@
+# Load Balancer with Docker Compose, Sample.
+## 3 django apps, 1 nginx load balancer.
+
+services:
+  # load balancer
+  web:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./logs:/var/log/nginx
+    depends_on:
+      - web1
+      - web2
+      - web3
+
+  # django app 1
+  web1:
+    build: ./app/
+    command: python manage.py runserver
+    volumes:
+      - ./app:/app
+      - ./logs:/var/log/django
+    ports:
+      - "8001:8000"
+
+  # django app 2
+  web2:
+    build: ./app/
+    command: python manage.py runserver
+    volumes:
+      - ./app:/app
+      - ./logs:/var/log/django
+    ports:
+      - "8002:8000"
+
+  # django app 3
+  web3:
+    build: ./app/
+    command: python manage.py runserver
+    volumes:
+      - ./app:/app
+      - ./logs:/var/log/django
+    ports:
+      - "8003:8000"
