@@ -14,16 +14,22 @@ services:
       - web1
       - web2
       - web3
+    networks:
+      - lb-net
 
   # django app 1
   web1:
     build: ./app/
-    command: python manage.py runserver
+    command:
+      python manage.py runserver
+      # && gunicorn fisa_django.wsgi:application --bind 0.0.0.0:8000 --access-logfile --error-logfile
     volumes:
       - ./app:/app
       - ./logs:/var/log/django
     ports:
       - "8001:8000"
+    networks:
+      - lb-net
 
   # django app 2
   web2:
@@ -34,6 +40,8 @@ services:
       - ./logs:/var/log/django
     ports:
       - "8002:8000"
+    networks:
+      - lb-net
 
   # django app 3
   web3:
@@ -44,3 +52,9 @@ services:
       - ./logs:/var/log/django
     ports:
       - "8003:8000"
+    networks:
+      - lb-net
+
+networks:
+  lb-net:
+    driver: bridge
