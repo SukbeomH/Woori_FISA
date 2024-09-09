@@ -1,0 +1,6 @@
+# virtualenv -–python=python3.11 myproject 
+# python 3.11 버전에서 tensorflow 2.12.0 버전을 사용해야 합니다.
+numpy
+streamlit
+tensorflow==2.12.0
+keras
