@@ -1,0 +1,351 @@
+[2024-10-04T01:04:57.961+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:04:57.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:04:57.964+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:57.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:04:57.984+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:04:58.144+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.143+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:upload_to_s3
+[2024-10-04T01:04:58.154+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.154+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:upload_to_s3
+[2024-10-04T01:04:58.161+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.161+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:upload_to_s3
+[2024-10-04T01:04:58.167+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.167+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:upload_to_s3
+[2024-10-04T01:04:58.172+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.172+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:upload_to_s3
+[2024-10-04T01:04:58.176+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.176+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:upload_to_s3
+[2024-10-04T01:04:58.179+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.179+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:upload_to_s3
+[2024-10-04T01:04:58.179+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:04:58.186+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.185+0000] {dag.py:3262} INFO - Creating ORM DAG for upload_to_s3
+[2024-10-04T01:04:58.191+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.191+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 00:55:00+00:00, run_after=2024-10-04 01:00:00+00:00
+[2024-10-04T01:04:58.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.244 seconds
+[2024-10-04T01:05:28.681+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:28.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:05:28.684+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:28.690+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:28.703+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:05:28.723+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.723+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:05:28.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.061 seconds
+[2024-10-04T01:05:59.297+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:59.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:05:59.301+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:59.308+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:05:59.321+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:05:59.334+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.334+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:05:59.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.055 seconds
+[2024-10-04T01:06:29.862+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:06:29.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:06:29.865+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:29.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:06:29.872+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:06:29.885+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:29.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:06:29.900+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:29.900+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:06:29.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.056 seconds
+[2024-10-04T01:07:00.067+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:00.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:07:00.069+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:00.073+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:00.084+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:07:00.095+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.095+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:07:00.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.041 seconds
+[2024-10-04T01:07:30.314+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:30.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:07:30.318+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:30.325+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:07:30.339+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:07:30.353+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.353+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:07:30.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.058 seconds
+[2024-10-04T01:08:00.484+0000] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:00.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:08:00.488+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:00.493+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:00.508+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:08:00.524+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.524+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:08:00.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.056 seconds
+[2024-10-04T01:08:30.688+0000] {processor.py:186} INFO - Started process (PID=597) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:30.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:08:30.692+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:30.699+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:08:30.714+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:08:30.729+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.729+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:08:30.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.068 seconds
+[2024-10-04T01:09:01.760+0000] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:01.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:09:01.766+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:01.779+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:01.798+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:09:01.812+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.812+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:09:01.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.073 seconds
+[2024-10-04T01:09:32.025+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:32.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:09:32.029+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:32.038+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:09:32.056+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.056+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:09:32.072+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.072+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:00:00+00:00, run_after=2024-10-04 01:05:00+00:00
+[2024-10-04T01:09:32.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.066 seconds
+[2024-10-04T01:10:35.252+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:10:35.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:10:35.256+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:10:35.270+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:10:35.296+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:10:35.316+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.316+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:10:35.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.083 seconds
+[2024-10-04T01:11:06.023+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:06.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:11:06.025+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:06.038+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:06.056+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:11:06.071+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.071+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:11:06.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.064 seconds
+[2024-10-04T01:11:36.779+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:36.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:11:36.783+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:36.789+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:11:36.804+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:11:36.817+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.817+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:11:36.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.057 seconds
+[2024-10-04T01:12:07.390+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:07.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:12:07.397+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:07.410+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:07.428+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:12:07.441+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.441+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:12:07.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.073 seconds
+[2024-10-04T01:12:38.120+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:38.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:12:38.122+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:38.128+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:12:38.142+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:12:38.155+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.155+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:12:38.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.050 seconds
+[2024-10-04T01:13:08.841+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:08.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:13:08.843+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:08.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:08.848+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:08.861+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:08.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:13:08.872+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:08.872+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:13:08.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.045 seconds
+[2024-10-04T01:13:39.491+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:39.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:13:39.495+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:39.506+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:13:39.529+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:13:39.545+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.545+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:13:39.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.071 seconds
+[2024-10-04T01:14:10.272+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:10.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:14:10.277+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:10.289+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:10.308+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:14:10.321+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.321+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:14:10.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.069 seconds
+[2024-10-04T01:14:41.128+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:41.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:14:41.131+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:41.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:41.141+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:14:41.162+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:41.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:14:41.178+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:41.177+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:05:00+00:00, run_after=2024-10-04 01:10:00+00:00
+[2024-10-04T01:14:41.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.065 seconds
+[2024-10-04T01:15:11.892+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:11.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:15:11.898+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:11.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:11.908+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:11.930+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:11.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:15:11.942+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:11.942+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:15:11.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.072 seconds
+[2024-10-04T01:15:42.653+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:42.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:15:42.659+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:42.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:42.669+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:15:42.686+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:42.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:15:42.699+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:42.699+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:15:42.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.066 seconds
+[2024-10-04T01:16:13.283+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:13.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:16:13.286+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:13.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:13.292+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:13.310+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:13.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:16:13.325+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:13.325+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:16:13.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.066 seconds
+[2024-10-04T01:16:43.965+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:43.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:16:43.970+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:43.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:43.981+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:16:44.001+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:44.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:16:44.016+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:44.016+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:16:44.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.074 seconds
+[2024-10-04T01:17:14.696+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:14.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:17:14.700+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:14.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:14.706+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:14.722+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:14.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:17:14.735+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:14.735+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:17:14.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.057 seconds
+[2024-10-04T01:17:45.414+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:45.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:17:45.419+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:45.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:45.431+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:17:45.452+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:45.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:17:45.464+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:45.464+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:17:45.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.071 seconds
+[2024-10-04T01:18:16.151+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:16.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:18:16.159+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:16.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:16.173+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:16.196+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:16.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:18:16.209+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:16.208+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:18:16.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.077 seconds
+[2024-10-04T01:18:46.816+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:46.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:18:46.821+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:46.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:46.831+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:18:46.848+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:46.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:18:46.862+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:46.862+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:18:46.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.065 seconds
+[2024-10-04T01:19:17.443+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:17.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:19:17.446+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:17.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:17.454+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:17.473+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:17.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:19:17.487+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:17.487+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:19:17.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.061 seconds
+[2024-10-04T01:19:48.010+0000] {processor.py:186} INFO - Started process (PID=507) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:48.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:19:48.013+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:48.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:48.018+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:19:48.032+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:48.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:19:48.044+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:48.044+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:10:00+00:00, run_after=2024-10-04 01:15:00+00:00
+[2024-10-04T01:19:48.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.048 seconds
+[2024-10-04T01:20:18.617+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:18.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:20:18.622+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:18.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:18.632+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:18.651+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:18.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:20:18.664+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:18.664+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:20:18.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.067 seconds
+[2024-10-04T01:20:49.233+0000] {processor.py:186} INFO - Started process (PID=833) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:49.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:20:49.235+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:49.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:49.240+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:20:49.255+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:49.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:20:49.267+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:49.267+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:20:49.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.053 seconds
+[2024-10-04T01:21:19.872+0000] {processor.py:186} INFO - Started process (PID=957) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:19.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:21:19.877+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:19.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:19.887+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:19.906+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:19.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:21:19.918+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:19.918+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:21:19.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.064 seconds
+[2024-10-04T01:21:50.587+0000] {processor.py:186} INFO - Started process (PID=973) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:50.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:21:50.591+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:50.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:50.599+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:21:50.615+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:50.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:21:50.628+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:50.628+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:21:50.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.059 seconds
+[2024-10-04T01:22:21.264+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:21.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:22:21.268+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:21.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:21.276+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:21.292+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:21.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:22:21.305+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:21.305+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:22:21.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.060 seconds
+[2024-10-04T01:22:51.913+0000] {processor.py:186} INFO - Started process (PID=1005) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:51.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:22:51.916+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:51.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:51.924+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:22:51.943+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:51.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:22:51.956+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:51.956+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:22:51.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.064 seconds
+[2024-10-04T01:23:22.630+0000] {processor.py:186} INFO - Started process (PID=1021) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:22.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:23:22.633+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:22.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:22.640+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:22.656+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:22.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:23:22.668+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:22.668+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:23:22.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.055 seconds
+[2024-10-04T01:23:53.345+0000] {processor.py:186} INFO - Started process (PID=1037) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:53.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:23:53.350+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:53.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:53.359+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:23:53.376+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:53.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:23:53.389+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:53.389+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:23:53.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.066 seconds
+[2024-10-04T01:24:24.034+0000] {processor.py:186} INFO - Started process (PID=1053) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:24.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:24:24.038+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:24.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:24.049+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:24.069+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:24.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:24:24.083+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:24.083+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:24:24.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.073 seconds
+[2024-10-04T01:24:54.686+0000] {processor.py:186} INFO - Started process (PID=1070) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:54.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:24:54.690+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:54.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:54.700+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:24:54.716+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:54.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:24:54.727+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:54.727+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:15:00+00:00, run_after=2024-10-04 01:20:00+00:00
+[2024-10-04T01:24:54.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.059 seconds
+[2024-10-04T01:29:40.578+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:29:40.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:29:40.582+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:29:40.596+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:29:40.618+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:29:40.640+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.640+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:20:00+00:00, run_after=2024-10-04 01:25:00+00:00
+[2024-10-04T01:29:40.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.085 seconds
+[2024-10-04T01:30:11.409+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:11.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:30:11.413+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:11.423+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:11.444+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:30:11.457+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.456+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:30:11.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.066 seconds
+[2024-10-04T01:30:42.151+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:42.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:30:42.154+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:42.159+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:30:42.173+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:30:42.186+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.186+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:30:42.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.055 seconds
+[2024-10-04T01:31:12.832+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:12.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:31:12.839+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:12.845+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:12.860+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:31:12.873+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.873+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:31:12.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.054 seconds
+[2024-10-04T01:31:43.478+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:43.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:31:43.480+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:43.485+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:31:43.500+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:31:43.514+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.514+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:31:43.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.051 seconds
+[2024-10-04T01:32:14.176+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:14.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:32:14.178+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:14.183+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:14.194+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:32:14.205+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.205+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:32:14.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.041 seconds
+[2024-10-04T01:32:44.903+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:44.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:32:44.910+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:44.916+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:32:44.930+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:32:44.942+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.942+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:32:44.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.057 seconds
+[2024-10-04T01:33:15.602+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:15.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:33:15.606+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:15.613+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:15.628+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:33:15.640+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.640+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:33:15.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.057 seconds
+[2024-10-04T01:33:46.348+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:46.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:33:46.350+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:46.357+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:33:46.372+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:33:46.384+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.384+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:33:46.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.051 seconds
+[2024-10-04T01:34:17.002+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:34:17.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5_upload_to_s3.py for tasks to queue
+[2024-10-04T01:34:17.005+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:34:17.011+0000] {processor.py:925} INFO - DAG(s) 'upload_to_s3' retrieved from /opt/airflow/dags/5_upload_to_s3.py
+[2024-10-04T01:34:17.027+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:34:17.039+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.039+0000] {dag.py:4180} INFO - Setting next_dagrun for upload_to_s3 to 2024-10-04 01:25:00+00:00, run_after=2024-10-04 01:30:00+00:00
+[2024-10-04T01:34:17.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5_upload_to_s3.py took 0.052 seconds

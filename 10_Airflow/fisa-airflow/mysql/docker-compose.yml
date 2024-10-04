@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8
+    volumes:
+      - mysqlvol:/var/lib/mysqld
+    ports:
+      - 3306:3306
+    restart: always
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: airflow
+      MYSQL_DATABASE: airflow
+      MYSQL_USER: airflow
+      MYSQL_PASSWORD: airflow
+
+volumes:
+  mysqlvol:

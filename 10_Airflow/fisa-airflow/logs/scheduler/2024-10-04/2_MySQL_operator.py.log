@@ -1,0 +1,358 @@
+[2024-10-04T01:04:58.493+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:04:58.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:04:58.495+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:04:58.501+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:04:58.553+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.553+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:MySQL_operator
+[2024-10-04T01:04:58.559+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.559+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:MySQL_operator
+[2024-10-04T01:04:58.564+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.564+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:MySQL_operator
+[2024-10-04T01:04:58.570+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.570+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:MySQL_operator
+[2024-10-04T01:04:58.574+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.573+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:MySQL_operator
+[2024-10-04T01:04:58.577+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.577+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:MySQL_operator
+[2024-10-04T01:04:58.580+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.580+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:MySQL_operator
+[2024-10-04T01:04:58.580+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:04:58.588+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.587+0000] {dag.py:3262} INFO - Creating ORM DAG for MySQL_operator
+[2024-10-04T01:04:58.593+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:04:58.593+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:04:58.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.113 seconds
+[2024-10-04T01:05:28.878+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:28.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:05:28.880+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:28.885+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:28.893+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:05:28.904+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:28.903+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:05:28.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.036 seconds
+[2024-10-04T01:05:59.493+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:59.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:05:59.495+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:59.501+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:05:59.510+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:05:59.521+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:05:59.521+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:05:59.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.042 seconds
+[2024-10-04T01:06:30.070+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:06:30.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:06:30.072+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:30.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:06:30.078+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:06:30.087+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:30.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:06:30.097+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:06:30.097+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:06:30.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.041 seconds
+[2024-10-04T01:07:00.274+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:00.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:07:00.276+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:00.281+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:00.290+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:07:00.301+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:00.301+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:07:00.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.044 seconds
+[2024-10-04T01:07:30.514+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:30.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:07:30.516+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:30.521+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:07:30.531+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:07:30.541+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:07:30.541+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:07:30.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.038 seconds
+[2024-10-04T01:08:00.654+0000] {processor.py:186} INFO - Started process (PID=531) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:00.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:08:00.656+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:00.661+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:00.670+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:08:00.681+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:00.681+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:08:00.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.039 seconds
+[2024-10-04T01:08:30.897+0000] {processor.py:186} INFO - Started process (PID=603) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:30.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:08:30.899+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:30.904+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:08:30.913+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:08:30.923+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:08:30.923+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:08:30.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.037 seconds
+[2024-10-04T01:09:01.970+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:01.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:09:01.971+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:01.977+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:01.988+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:09:01.999+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:01.999+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:09:02.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.042 seconds
+[2024-10-04T01:09:32.241+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:32.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:09:32.243+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:32.249+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:09:32.259+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:09:32.271+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:09:32.271+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:09:32.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.043 seconds
+[2024-10-04T01:10:35.557+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:10:35.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:10:35.563+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:10:35.574+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:10:35.596+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:10:35.612+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:10:35.612+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:10:35.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.078 seconds
+[2024-10-04T01:11:06.249+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:06.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:11:06.253+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:06.259+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:06.270+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:11:06.281+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:06.281+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:11:06.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.044 seconds
+[2024-10-04T01:11:36.930+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:36.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:11:36.931+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:36.936+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:11:36.945+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:11:36.955+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:11:36.955+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:11:36.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.035 seconds
+[2024-10-04T01:12:07.619+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:07.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:12:07.621+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:07.627+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:07.638+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:12:07.650+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:07.650+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:12:07.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.045 seconds
+[2024-10-04T01:12:38.337+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:38.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:12:38.339+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:38.346+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:12:38.358+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:12:38.369+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:12:38.369+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:12:38.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.048 seconds
+[2024-10-04T01:13:09.003+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:09.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:13:09.005+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:09.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:09.010+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:09.020+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:09.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:13:09.031+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:09.031+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-03 00:00:00+00:00, run_after=2024-10-04 00:00:00+00:00
+[2024-10-04T01:13:09.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.041 seconds
+[2024-10-04T01:13:39.712+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:39.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:13:39.714+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:39.720+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:13:39.731+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:13:39.742+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:13:39.742+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:13:39.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.043 seconds
+[2024-10-04T01:14:10.501+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:10.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:14:10.503+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:10.509+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:10.519+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:14:10.530+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:10.530+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:14:10.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.041 seconds
+[2024-10-04T01:14:11.648+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:11.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:14:11.652+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:11.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:11.663+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:11.684+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:11.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:14:11.698+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:11.698+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:14:11.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.067 seconds
+[2024-10-04T01:14:42.437+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:42.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:14:42.441+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:42.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:42.454+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:14:42.478+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:42.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:14:42.494+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:14:42.494+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:14:42.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.080 seconds
+[2024-10-04T01:15:13.179+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:13.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:15:13.181+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:13.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:13.189+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:13.205+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:13.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:15:13.222+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:13.221+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:15:13.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.066 seconds
+[2024-10-04T01:15:43.919+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:43.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:15:43.922+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:43.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:43.934+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:15:43.960+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:43.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:15:43.979+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:15:43.979+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:15:43.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.077 seconds
+[2024-10-04T01:16:14.617+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:14.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:16:14.622+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:14.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:14.633+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:14.648+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:14.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:16:14.663+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:14.662+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:16:14.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.068 seconds
+[2024-10-04T01:16:45.291+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:45.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:16:45.297+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:45.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:45.309+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:16:45.333+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:45.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:16:45.349+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:16:45.349+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:16:45.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.076 seconds
+[2024-10-04T01:17:15.980+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:15.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:17:15.984+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:15.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:15.996+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:16.017+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:16.017+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:17:16.032+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:16.032+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:17:16.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.069 seconds
+[2024-10-04T01:17:46.720+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:46.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:17:46.724+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:46.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:46.736+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:17:46.760+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:46.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:17:46.774+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:17:46.774+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:17:46.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.073 seconds
+[2024-10-04T01:18:17.465+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:17.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:18:17.469+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:17.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:17.480+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:17.501+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:17.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:18:17.515+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:17.515+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:18:17.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.070 seconds
+[2024-10-04T01:18:48.116+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:48.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:18:48.120+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:48.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:48.131+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:18:48.152+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:48.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:18:48.165+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:18:48.164+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:18:48.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.074 seconds
+[2024-10-04T01:19:18.744+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:18.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:19:18.750+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:18.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:18.764+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:18.787+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:18.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:19:18.801+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:18.801+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:19:18.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.075 seconds
+[2024-10-04T01:19:49.284+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:49.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:19:49.287+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:49.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:49.299+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:19:49.316+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:49.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:19:49.327+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:19:49.326+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:19:49.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.059 seconds
+[2024-10-04T01:20:19.941+0000] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:19.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:20:19.946+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:19.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:19.959+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:19.981+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:19.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:20:19.995+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:19.995+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:20:20.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.072 seconds
+[2024-10-04T01:20:50.557+0000] {processor.py:186} INFO - Started process (PID=847) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:50.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:20:50.559+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:50.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:50.565+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:20:50.577+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:50.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:20:50.588+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:20:50.588+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:20:50.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.045 seconds
+[2024-10-04T01:21:21.191+0000] {processor.py:186} INFO - Started process (PID=966) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:21.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:21:21.197+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:21.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:21.209+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:21.231+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:21.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:21:21.244+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:21.244+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:21:21.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.070 seconds
+[2024-10-04T01:21:51.895+0000] {processor.py:186} INFO - Started process (PID=982) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:51.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:21:51.897+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:51.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:51.907+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:21:51.924+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:51.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:21:51.938+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:21:51.938+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:21:51.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.059 seconds
+[2024-10-04T01:22:22.546+0000] {processor.py:186} INFO - Started process (PID=998) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:22.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:22:22.550+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:22.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:22.560+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:22.579+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:22.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:22:22.594+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:22.594+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:22:22.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.064 seconds
+[2024-10-04T01:22:53.199+0000] {processor.py:186} INFO - Started process (PID=1014) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:53.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:22:53.202+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:53.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:53.210+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:22:53.224+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:53.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:22:53.237+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:22:53.237+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:22:53.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.059 seconds
+[2024-10-04T01:23:23.912+0000] {processor.py:186} INFO - Started process (PID=1030) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:23.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:23:23.917+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:23.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:23.929+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:23.950+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:23.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:23:23.964+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:23.964+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:23:23.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.067 seconds
+[2024-10-04T01:23:54.638+0000] {processor.py:186} INFO - Started process (PID=1046) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:54.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:23:54.642+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:54.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:54.653+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:23:54.672+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:54.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:23:54.683+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:23:54.683+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:23:54.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.060 seconds
+[2024-10-04T01:24:25.350+0000] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:25.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:24:25.357+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:25.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:25.368+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:25.388+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:25.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:24:25.400+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:25.399+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:24:25.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.067 seconds
+[2024-10-04T01:24:45.577+0000] {processor.py:186} INFO - Started process (PID=1069) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:45.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:24:45.579+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:45.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:45.588+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:24:45.602+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:45.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:24:45.615+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:24:45.614+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:24:45.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.054 seconds
+[2024-10-04T01:29:40.081+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:29:40.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:29:40.085+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:29:40.108+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:29:40.151+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:29:40.166+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:29:40.166+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:29:40.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.104 seconds
+[2024-10-04T01:30:11.401+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:11.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:30:11.407+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:11.422+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:11.444+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:30:11.457+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:11.457+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:30:11.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.077 seconds
+[2024-10-04T01:30:42.146+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:42.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:30:42.150+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:42.158+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:30:42.173+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:30:42.186+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:30:42.186+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:30:42.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.063 seconds
+[2024-10-04T01:31:12.829+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:12.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:31:12.831+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:12.839+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:12.856+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:31:12.871+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:12.871+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:31:12.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.057 seconds
+[2024-10-04T01:31:43.475+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:43.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:31:43.478+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:43.485+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:31:43.500+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:31:43.515+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:31:43.515+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:31:43.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.055 seconds
+[2024-10-04T01:32:14.174+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:14.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:32:14.176+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:14.182+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:14.194+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:32:14.206+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:14.206+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:32:14.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.045 seconds
+[2024-10-04T01:32:44.899+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:44.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:32:44.903+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:44.913+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:32:44.930+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:32:44.943+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:32:44.942+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:32:44.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.066 seconds
+[2024-10-04T01:33:15.595+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:15.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:33:15.600+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:15.613+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:15.628+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:33:15.641+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:15.641+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:33:15.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.068 seconds
+[2024-10-04T01:33:46.345+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:46.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:33:46.348+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:46.357+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:33:46.372+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:33:46.385+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:33:46.385+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:33:46.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.058 seconds
+[2024-10-04T01:34:16.998+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:34:16.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/2_MySQL_operator.py for tasks to queue
+[2024-10-04T01:34:17.001+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:34:17.011+0000] {processor.py:925} INFO - DAG(s) 'MySQL_operator' retrieved from /opt/airflow/dags/2_MySQL_operator.py
+[2024-10-04T01:34:17.027+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:34:17.040+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.040+0000] {dag.py:4180} INFO - Setting next_dagrun for MySQL_operator to 2024-10-04 00:00:00+00:00, run_after=2024-10-05 00:00:00+00:00
+[2024-10-04T01:34:17.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/2_MySQL_operator.py took 0.060 seconds
