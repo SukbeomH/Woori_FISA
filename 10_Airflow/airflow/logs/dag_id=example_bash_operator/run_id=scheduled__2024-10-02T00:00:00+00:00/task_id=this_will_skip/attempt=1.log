@@ -1,0 +1,28 @@
+[2024-10-03T04:45:21.998+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-03T04:45:22.006+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_bash_operator.this_will_skip scheduled__2024-10-02T00:00:00+00:00 [queued]>
+[2024-10-03T04:45:22.012+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_bash_operator.this_will_skip scheduled__2024-10-02T00:00:00+00:00 [queued]>
+[2024-10-03T04:45:22.012+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-03T04:45:22.024+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): this_will_skip> on 2024-10-02 00:00:00+00:00
+[2024-10-03T04:45:22.028+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=8457) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-03T04:45:22.030+0000] {standard_task_runner.py:72} INFO - Started process 8478 to run task
+[2024-10-03T04:45:22.031+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_bash_operator', 'this_will_skip', 'scheduled__2024-10-02T00:00:00+00:00', '--job-id', '184', '--raw', '--subdir', '/home/***/.local/lib/python3.12/site-packages/***/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmpdqbhvzfv']
+[2024-10-03T04:45:22.032+0000] {standard_task_runner.py:105} INFO - Job 184: Subtask this_will_skip
+[2024-10-03T04:45:22.073+0000] {task_command.py:467} INFO - Running <TaskInstance: example_bash_operator.this_will_skip scheduled__2024-10-02T00:00:00+00:00 [running]> on host 8dd91c37f153
+[2024-10-03T04:45:22.127+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_bash_operator' AIRFLOW_CTX_TASK_ID='this_will_skip' AIRFLOW_CTX_EXECUTION_DATE='2024-10-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-02T00:00:00+00:00'
+[2024-10-03T04:45:22.128+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-03T04:45:22.128+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-03T04:45:22.128+0000] {logging_mixin.py:190} INFO - Current task name:this_will_skip state:running start_date:2024-10-03 04:45:22.006905+00:00
+[2024-10-03T04:45:22.129+0000] {logging_mixin.py:190} INFO - Dag name:example_bash_operator and current dag run status:running
+[2024-10-03T04:45:22.129+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-03T04:45:22.129+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-03T04:45:22.130+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "hello world"; exit 99;']
+[2024-10-03T04:45:22.140+0000] {subprocess.py:86} INFO - Output:
+[2024-10-03T04:45:22.141+0000] {subprocess.py:93} INFO - hello world
+[2024-10-03T04:45:22.141+0000] {subprocess.py:97} INFO - Command exited with return code 99
+[2024-10-03T04:45:22.141+0000] {taskinstance.py:301} INFO - Bash command returned exit code 99. Skipping.
+[2024-10-03T04:45:22.152+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-03T04:45:22.153+0000] {taskinstance.py:352} INFO - Marking task as SKIPPED. dag_id=example_bash_operator, task_id=this_will_skip, run_id=scheduled__2024-10-02T00:00:00+00:00, execution_date=20241002T000000, start_date=20241003T044522, end_date=20241003T044522
+[2024-10-03T04:45:22.171+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-03T04:45:22.176+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
