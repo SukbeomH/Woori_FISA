@@ -349,3 +349,423 @@
 [2024-10-04T01:34:17.133+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-04T01:34:17.143+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:17.143+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:33:00+00:00, run_after=2024-10-04 01:34:00+00:00
 [2024-10-04T01:34:17.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.041 seconds
+[2024-10-04T01:34:48.823+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:34:48.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:34:48.827+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:48.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:34:48.833+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:34:48.848+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:48.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:34:48.862+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:34:48.862+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:33:00+00:00, run_after=2024-10-04 01:34:00+00:00
+[2024-10-04T01:34:48.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.064 seconds
+[2024-10-04T01:35:19.642+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:19.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:35:19.645+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:19.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:19.654+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:19.673+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:19.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:35:19.686+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:19.685+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:34:00+00:00, run_after=2024-10-04 01:35:00+00:00
+[2024-10-04T01:35:19.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:35:50.368+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:50.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:35:50.370+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:50.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:50.376+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:35:50.391+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:50.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:35:50.405+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:35:50.405+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:34:00+00:00, run_after=2024-10-04 01:35:00+00:00
+[2024-10-04T01:35:50.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.056 seconds
+[2024-10-04T01:36:21.072+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:21.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:36:21.076+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:21.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:21.085+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:21.102+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:21.102+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:36:21.114+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:21.114+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:35:00+00:00, run_after=2024-10-04 01:36:00+00:00
+[2024-10-04T01:36:21.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:36:51.762+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:51.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:36:51.763+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:51.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:51.768+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:36:51.781+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:51.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:36:51.796+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:36:51.796+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:35:00+00:00, run_after=2024-10-04 01:36:00+00:00
+[2024-10-04T01:36:51.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.049 seconds
+[2024-10-04T01:37:22.457+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:22.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:37:22.461+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:22.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:22.469+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:22.484+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:22.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:37:22.496+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:22.496+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:36:00+00:00, run_after=2024-10-04 01:37:00+00:00
+[2024-10-04T01:37:22.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:37:53.135+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:53.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:37:53.140+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:53.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:53.150+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:37:53.168+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:53.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:37:53.180+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:37:53.180+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:36:00+00:00, run_after=2024-10-04 01:37:00+00:00
+[2024-10-04T01:37:53.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.071 seconds
+[2024-10-04T01:38:23.782+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:23.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:38:23.785+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:23.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:23.790+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:23.803+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:23.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:38:23.815+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:23.815+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:37:00+00:00, run_after=2024-10-04 01:38:00+00:00
+[2024-10-04T01:38:23.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.050 seconds
+[2024-10-04T01:38:54.498+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:54.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:38:54.504+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:54.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:54.514+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:38:54.535+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:54.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:38:54.547+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:38:54.547+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:37:00+00:00, run_after=2024-10-04 01:38:00+00:00
+[2024-10-04T01:38:54.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.067 seconds
+[2024-10-04T01:39:25.196+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:25.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:39:25.200+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:25.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:25.208+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:25.224+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:25.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:39:25.239+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:25.239+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:38:00+00:00, run_after=2024-10-04 01:39:00+00:00
+[2024-10-04T01:39:25.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.060 seconds
+[2024-10-04T01:39:55.733+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:55.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:39:55.739+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:55.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:55.750+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:39:55.767+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:55.767+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:39:55.779+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:39:55.779+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:38:00+00:00, run_after=2024-10-04 01:39:00+00:00
+[2024-10-04T01:39:55.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:40:26.386+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:26.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:40:26.392+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:26.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:26.402+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:26.423+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:26.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:40:26.435+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:26.435+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:39:00+00:00, run_after=2024-10-04 01:40:00+00:00
+[2024-10-04T01:40:26.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.071 seconds
+[2024-10-04T01:40:57.045+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:57.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:40:57.049+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:57.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:57.064+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:40:57.077+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:57.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:40:57.090+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:40:57.090+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:39:00+00:00, run_after=2024-10-04 01:40:00+00:00
+[2024-10-04T01:40:57.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:41:27.723+0000] {processor.py:186} INFO - Started process (PID=483) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:27.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:41:27.726+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:27.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:27.733+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:27.749+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:27.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:41:27.762+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:27.762+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:40:00+00:00, run_after=2024-10-04 01:41:00+00:00
+[2024-10-04T01:41:27.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.056 seconds
+[2024-10-04T01:41:58.379+0000] {processor.py:186} INFO - Started process (PID=499) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:58.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:41:58.382+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:58.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:58.392+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:41:58.411+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:58.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:41:58.423+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:41:58.423+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:40:00+00:00, run_after=2024-10-04 01:41:00+00:00
+[2024-10-04T01:41:58.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.063 seconds
+[2024-10-04T01:42:28.968+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:28.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:42:28.970+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:28.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:28.976+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:28.989+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:28.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:42:29.000+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:29.000+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:41:00+00:00, run_after=2024-10-04 01:42:00+00:00
+[2024-10-04T01:42:29.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.045 seconds
+[2024-10-04T01:42:59.567+0000] {processor.py:186} INFO - Started process (PID=539) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:59.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:42:59.572+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:59.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:59.581+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:42:59.596+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:59.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:42:59.609+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:42:59.609+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:41:00+00:00, run_after=2024-10-04 01:42:00+00:00
+[2024-10-04T01:42:59.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:43:30.192+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:43:30.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:43:30.195+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:43:30.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:43:30.202+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:43:30.219+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:43:30.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:43:30.232+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:43:30.232+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:42:00+00:00, run_after=2024-10-04 01:43:00+00:00
+[2024-10-04T01:43:30.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.064 seconds
+[2024-10-04T01:44:00.878+0000] {processor.py:186} INFO - Started process (PID=571) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:00.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:44:00.882+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:00.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:00.892+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:00.907+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:00.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:44:00.920+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:00.920+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:43:00+00:00, run_after=2024-10-04 01:44:00+00:00
+[2024-10-04T01:44:00.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:44:31.535+0000] {processor.py:186} INFO - Started process (PID=587) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:31.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:44:31.539+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:31.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:31.546+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:44:31.567+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:31.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:44:31.579+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:44:31.579+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:43:00+00:00, run_after=2024-10-04 01:44:00+00:00
+[2024-10-04T01:44:31.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.064 seconds
+[2024-10-04T01:45:02.119+0000] {processor.py:186} INFO - Started process (PID=611) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:02.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:45:02.121+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:02.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:02.124+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:02.136+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:02.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:45:02.148+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:02.148+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:44:00+00:00, run_after=2024-10-04 01:45:00+00:00
+[2024-10-04T01:45:02.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.042 seconds
+[2024-10-04T01:45:32.792+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:32.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:45:32.797+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:32.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:32.807+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:45:32.823+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:32.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:45:32.835+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:45:32.834+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:44:00+00:00, run_after=2024-10-04 01:45:00+00:00
+[2024-10-04T01:45:32.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T01:46:03.626+0000] {processor.py:186} INFO - Started process (PID=643) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:03.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:46:03.631+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:03.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:03.641+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:03.660+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:03.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:46:03.673+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:03.672+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:45:00+00:00, run_after=2024-10-04 01:46:00+00:00
+[2024-10-04T01:46:03.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:46:34.337+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:34.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:46:34.341+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:34.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:34.349+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:46:34.367+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:34.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:46:34.381+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:46:34.380+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:45:00+00:00, run_after=2024-10-04 01:46:00+00:00
+[2024-10-04T01:46:34.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T01:47:05.062+0000] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:05.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:47:05.066+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:05.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:05.077+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:05.091+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:05.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:47:05.103+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:05.103+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:46:00+00:00, run_after=2024-10-04 01:47:00+00:00
+[2024-10-04T01:47:05.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.060 seconds
+[2024-10-04T01:47:35.811+0000] {processor.py:186} INFO - Started process (PID=691) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:35.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:47:35.815+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:35.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:35.824+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:47:35.840+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:35.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:47:35.852+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:47:35.852+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:46:00+00:00, run_after=2024-10-04 01:47:00+00:00
+[2024-10-04T01:47:35.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:48:06.497+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:06.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:48:06.501+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:06.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:06.508+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:06.524+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:06.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:48:06.538+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:06.538+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:47:00+00:00, run_after=2024-10-04 01:48:00+00:00
+[2024-10-04T01:48:06.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.058 seconds
+[2024-10-04T01:48:37.200+0000] {processor.py:186} INFO - Started process (PID=723) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:37.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:48:37.203+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:37.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:37.211+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:48:37.230+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:37.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:48:37.244+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:48:37.243+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:47:00+00:00, run_after=2024-10-04 01:48:00+00:00
+[2024-10-04T01:48:37.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.067 seconds
+[2024-10-04T01:49:07.907+0000] {processor.py:186} INFO - Started process (PID=739) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:07.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:49:07.911+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:07.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:07.920+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:07.937+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:07.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:49:07.949+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:07.949+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:48:00+00:00, run_after=2024-10-04 01:49:00+00:00
+[2024-10-04T01:49:07.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:49:38.642+0000] {processor.py:186} INFO - Started process (PID=755) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:38.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:49:38.647+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:38.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:38.653+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:49:38.669+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:38.669+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:49:38.682+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:49:38.682+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:48:00+00:00, run_after=2024-10-04 01:49:00+00:00
+[2024-10-04T01:49:38.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:50:09.350+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:09.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:50:09.354+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:09.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:09.362+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:09.377+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:09.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:50:09.389+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:09.389+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:49:00+00:00, run_after=2024-10-04 01:50:00+00:00
+[2024-10-04T01:50:09.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.059 seconds
+[2024-10-04T01:50:40.020+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:40.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:50:40.024+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:40.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:40.035+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:50:40.052+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:40.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:50:40.064+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:50:40.064+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:49:00+00:00, run_after=2024-10-04 01:50:00+00:00
+[2024-10-04T01:50:40.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.063 seconds
+[2024-10-04T01:51:10.789+0000] {processor.py:186} INFO - Started process (PID=811) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:10.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:51:10.793+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:10.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:10.803+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:10.824+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:10.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:51:10.838+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:10.837+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:50:00+00:00, run_after=2024-10-04 01:51:00+00:00
+[2024-10-04T01:51:10.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.074 seconds
+[2024-10-04T01:51:41.492+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:41.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:51:41.496+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:41.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:41.506+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:51:41.523+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:41.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:51:41.536+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:51:41.536+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:50:00+00:00, run_after=2024-10-04 01:51:00+00:00
+[2024-10-04T01:51:41.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.062 seconds
+[2024-10-04T01:52:12.122+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:12.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:52:12.126+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:12.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:12.136+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:12.153+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:12.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:52:12.165+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:12.165+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:51:00+00:00, run_after=2024-10-04 01:52:00+00:00
+[2024-10-04T01:52:12.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T01:52:42.752+0000] {processor.py:186} INFO - Started process (PID=859) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:42.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:52:42.753+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:42.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:42.757+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:52:42.769+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:42.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:52:42.781+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:52:42.780+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:51:00+00:00, run_after=2024-10-04 01:52:00+00:00
+[2024-10-04T01:52:42.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.046 seconds
+[2024-10-04T01:53:13.474+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:13.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:53:13.476+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:13.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:13.481+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:13.492+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:13.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:53:13.504+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:13.503+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:52:00+00:00, run_after=2024-10-04 01:53:00+00:00
+[2024-10-04T01:53:13.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.053 seconds
+[2024-10-04T01:53:44.190+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:44.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:53:44.192+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:44.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:44.196+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:53:44.209+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:44.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:53:44.220+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:53:44.219+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:52:00+00:00, run_after=2024-10-04 01:53:00+00:00
+[2024-10-04T01:53:44.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.042 seconds
+[2024-10-04T01:54:14.947+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:14.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:54:14.951+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:14.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:14.962+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:14.980+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:14.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:54:14.992+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:14.992+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:53:00+00:00, run_after=2024-10-04 01:54:00+00:00
+[2024-10-04T01:54:15.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.063 seconds
+[2024-10-04T01:54:45.687+0000] {processor.py:186} INFO - Started process (PID=923) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:45.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:54:45.690+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:45.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:45.700+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:54:45.715+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:45.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:54:45.729+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:54:45.729+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:53:00+00:00, run_after=2024-10-04 01:54:00+00:00
+[2024-10-04T01:54:45.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.066 seconds
+[2024-10-04T01:55:16.360+0000] {processor.py:186} INFO - Started process (PID=947) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:16.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:55:16.362+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:16.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:16.367+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:16.379+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:16.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:55:16.390+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:16.390+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:54:00+00:00, run_after=2024-10-04 01:55:00+00:00
+[2024-10-04T01:55:16.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.047 seconds
+[2024-10-04T01:55:47.079+0000] {processor.py:186} INFO - Started process (PID=963) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:47.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:55:47.084+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:47.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:47.095+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:55:47.110+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:47.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:55:47.122+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:55:47.122+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:54:00+00:00, run_after=2024-10-04 01:55:00+00:00
+[2024-10-04T01:55:47.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.065 seconds
+[2024-10-04T01:56:17.791+0000] {processor.py:186} INFO - Started process (PID=985) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:17.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:56:17.795+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:17.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:17.804+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:17.823+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:17.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:56:17.835+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:17.835+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:55:00+00:00, run_after=2024-10-04 01:56:00+00:00
+[2024-10-04T01:56:17.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.062 seconds
+[2024-10-04T01:56:48.516+0000] {processor.py:186} INFO - Started process (PID=1001) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:48.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:56:48.520+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:48.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:48.528+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:56:48.544+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:48.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:56:48.558+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:56:48.558+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:55:00+00:00, run_after=2024-10-04 01:56:00+00:00
+[2024-10-04T01:56:48.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.062 seconds
+[2024-10-04T01:57:19.201+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:19.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:57:19.205+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:19.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:19.213+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:19.231+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:19.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:57:19.245+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:19.245+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:56:00+00:00, run_after=2024-10-04 01:57:00+00:00
+[2024-10-04T01:57:19.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T01:57:49.968+0000] {processor.py:186} INFO - Started process (PID=1033) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:49.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:57:49.972+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:49.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:49.982+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:57:50.003+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:50.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:57:50.016+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:57:50.016+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:56:00+00:00, run_after=2024-10-04 01:57:00+00:00
+[2024-10-04T01:57:50.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.066 seconds
+[2024-10-04T01:58:20.666+0000] {processor.py:186} INFO - Started process (PID=1049) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:20.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:58:20.670+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:20.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:20.679+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:20.695+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:20.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:58:20.707+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:20.707+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:57:00+00:00, run_after=2024-10-04 01:58:00+00:00
+[2024-10-04T01:58:20.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.060 seconds
+[2024-10-04T01:58:51.367+0000] {processor.py:186} INFO - Started process (PID=1065) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:51.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:58:51.371+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:51.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:51.382+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:58:51.397+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:51.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:58:51.410+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:58:51.410+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:57:00+00:00, run_after=2024-10-04 01:58:00+00:00
+[2024-10-04T01:58:51.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T01:59:22.020+0000] {processor.py:186} INFO - Started process (PID=1081) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:22.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:59:22.024+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:22.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:22.033+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:22.051+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:22.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:59:22.063+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:22.063+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:58:00+00:00, run_after=2024-10-04 01:59:00+00:00
+[2024-10-04T01:59:22.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.067 seconds
+[2024-10-04T01:59:52.721+0000] {processor.py:186} INFO - Started process (PID=1097) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:52.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T01:59:52.726+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:52.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:52.734+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T01:59:52.750+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:52.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T01:59:52.763+0000] {logging_mixin.py:190} INFO - [2024-10-04T01:59:52.762+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:58:00+00:00, run_after=2024-10-04 01:59:00+00:00
+[2024-10-04T01:59:52.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.058 seconds
+[2024-10-04T02:00:23.456+0000] {processor.py:186} INFO - Started process (PID=1121) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:23.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:00:23.462+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:23.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:23.472+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:23.491+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:23.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:00:23.503+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:23.502+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:59:00+00:00, run_after=2024-10-04 02:00:00+00:00
+[2024-10-04T02:00:23.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.070 seconds
+[2024-10-04T02:00:54.205+0000] {processor.py:186} INFO - Started process (PID=1137) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:54.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:00:54.209+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:54.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:54.216+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:00:54.231+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:54.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:00:54.245+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:00:54.244+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 01:59:00+00:00, run_after=2024-10-04 02:00:00+00:00
+[2024-10-04T02:00:54.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.058 seconds
+[2024-10-04T02:01:24.963+0000] {processor.py:186} INFO - Started process (PID=1153) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:24.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:01:24.966+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:24.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:24.973+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:24.988+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:24.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:01:25.002+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:25.001+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:00:00+00:00, run_after=2024-10-04 02:01:00+00:00
+[2024-10-04T02:01:25.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.057 seconds
+[2024-10-04T02:01:55.727+0000] {processor.py:186} INFO - Started process (PID=1169) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:55.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:01:55.731+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:55.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:55.738+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:01:55.758+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:55.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:01:55.771+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:01:55.771+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:00:00+00:00, run_after=2024-10-04 02:01:00+00:00
+[2024-10-04T02:01:55.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.062 seconds
+[2024-10-04T02:02:26.593+0000] {processor.py:186} INFO - Started process (PID=1185) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:26.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:02:26.597+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:26.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:26.607+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:26.624+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:26.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:02:26.635+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:26.635+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:01:00+00:00, run_after=2024-10-04 02:02:00+00:00
+[2024-10-04T02:02:26.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.061 seconds
+[2024-10-04T02:02:57.336+0000] {processor.py:186} INFO - Started process (PID=1201) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:57.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:02:57.340+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:57.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:57.350+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:02:57.369+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:57.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:02:57.382+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:02:57.382+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:01:00+00:00, run_after=2024-10-04 02:02:00+00:00
+[2024-10-04T02:02:57.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.070 seconds
+[2024-10-04T02:03:28.121+0000] {processor.py:186} INFO - Started process (PID=1217) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:28.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:03:28.123+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:28.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:28.130+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:28.146+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:28.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:03:28.162+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:28.162+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:02:00+00:00, run_after=2024-10-04 02:03:00+00:00
+[2024-10-04T02:03:28.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.062 seconds
+[2024-10-04T02:03:58.969+0000] {processor.py:186} INFO - Started process (PID=1233) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:58.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:03:58.974+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:58.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:58.984+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:03:58.999+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:58.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:03:59.011+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:03:59.011+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:02:00+00:00, run_after=2024-10-04 02:03:00+00:00
+[2024-10-04T02:03:59.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.060 seconds
+[2024-10-04T02:04:29.756+0000] {processor.py:186} INFO - Started process (PID=1249) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:04:29.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:04:29.759+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:04:29.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:04:29.766+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:04:29.783+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:04:29.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:04:29.796+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:04:29.796+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:03:00+00:00, run_after=2024-10-04 02:04:00+00:00
+[2024-10-04T02:04:29.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.057 seconds
+[2024-10-04T02:05:00.522+0000] {processor.py:186} INFO - Started process (PID=1265) to work on /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:05:00.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8_toKafka.py for tasks to queue
+[2024-10-04T02:05:00.525+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:05:00.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:05:00.530+0000] {processor.py:925} INFO - DAG(s) 'kafka-connect' retrieved from /opt/airflow/dags/8_toKafka.py
+[2024-10-04T02:05:00.544+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:05:00.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-04T02:05:00.558+0000] {logging_mixin.py:190} INFO - [2024-10-04T02:05:00.558+0000] {dag.py:4180} INFO - Setting next_dagrun for kafka-connect to 2024-10-04 02:04:00+00:00, run_after=2024-10-04 02:05:00+00:00
+[2024-10-04T02:05:00.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8_toKafka.py took 0.055 seconds

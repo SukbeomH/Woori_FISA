@@ -2,7 +2,6 @@
 from datetime import datetime, timedelta
 from email.policy import default
 from textwrap import dedent
-
 from airflow import DAG
 from airflow.providers.mysql.operators.mysql import MySqlOperator
 
@@ -11,6 +10,7 @@ default_args = {
     'retires': 1,
     'retry_delay': timedelta(minutes=5)
 }
+
 
 sql_create_table = """
     CREATE TABLE `employees` (
