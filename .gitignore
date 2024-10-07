@@ -10,3 +10,4 @@ db.yaml
 06_WEB/0823/bootstrap/dependency
 06_WEB/0827/my0827/node_modules
 __pycache__
+11_MLFlow/mlflow_code/*
